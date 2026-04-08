@@ -142,3 +142,7 @@ Implemented deterministic SHA-256 hashing for bundled multi-valuation certificat
 
 Implemented deterministic structural validation for bundled multi-valuation certificate dictionaries, with executable acceptance and rejection tests.
 
+## Multi-valuation verification
+
+Implemented normalized certificate verification combining schema validation and deterministic hash checking, with executable acceptance and rejection tests.
+
