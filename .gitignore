@@ -1,4 +1,5 @@
 .DS_Store
 
 *.aux
-*.log
+*.logartifacts/
+**/__pycache__/
