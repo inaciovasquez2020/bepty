@@ -190,3 +190,7 @@ Implemented deterministic verification for in-memory and file-backed higher-dime
 
 Implemented a minimal CLI entry path for higher-dimensional manifest verification from JSON, with an executable end-to-end subprocess test.
 
+## Concrete higher-dimensional evaluator
+
+Implemented `ConcreteHigherDimensionalValuation` on a matrix-defined finite \(\mathbb F_2\)-complex, supplying executable cycle-space nullity and local-cycle-span rank evaluation to cover the remaining higher-dimensional bottleneck.
+
