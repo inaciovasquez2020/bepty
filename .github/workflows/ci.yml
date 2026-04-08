@@ -36,3 +36,5 @@ jobs:
         run: python3 examples/profiled_betti_demo.py
       - name: Run sheaf/profile target demo
         run: python3 examples/sheaf_profile_target.py
+      - name: Run admissible morphism demo
+        run: python3 examples/admissible_morphism_demo.py

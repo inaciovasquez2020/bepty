@@ -69,3 +69,9 @@ Status:
 - Next formal requirement:
   - replace the provisional sheaf class by an exact categorical comparison class
   - prove or refute nonrecoverability for that exact class
+
+
+## Admissible morphism layer
+- Note: `notes/ADMISSIBLE_MORPHISMS.md`
+- Exact sheaf package: `notes/EXACT_SHEAF_PACKAGE.md`
+- Executable invariance toy demo: `examples/admissible_morphism_demo.py`
