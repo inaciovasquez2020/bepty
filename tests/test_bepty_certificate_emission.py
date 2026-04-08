@@ -14,6 +14,7 @@ def test_emit_and_verify_certificate():
     schema = json.loads(Path("schemas/bepty_certificate.schema.json").read_text())
     jsonschema.validate(instance=data, schema=schema)
 
+    assert data["certificate_version"] == "v0.2.0"
     assert data["object_type"] == "graph"
     assert data["valuation"] == "dim"
     assert isinstance(data["hash"], str) and len(data["hash"]) == 64
