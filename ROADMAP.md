@@ -63,3 +63,10 @@
 23. Treat the toy-model colimit-kernel tests as verified reduction evidence that \(\kappa_R\) is the exact obstruction term at diagram level.
 24. Replace toy diagrams by actual \(B_R(v;K)\) data from one explicit witness generator.
 25. Search for \(K,L,R\) with isomorphic exact packages and distinct \(\kappa_R\).
+
+
+## Next bounded search extensions
+26. Raise the enumerator bound from \(n=6\) to \(n=7\).
+27. Add radius \(R=2\) search.
+28. Replace \(\operatorname{Hist}_R\) by \(\kappa_R\) in the search target.
+29. Record the first positive or negative result for each \((n,R)\) slice.

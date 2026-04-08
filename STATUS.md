@@ -97,3 +97,21 @@
   \]
 - consequence: current witness does not realize equal-package / distinct-profile separation
 - frontier unchanged: exact equal-package witness remains open
+
+
+## Bounded negative search result
+- enumerator added: `examples/search_equal_signature_pairs.py`
+- verified bounded result at \((n,R)=(6,1)\):
+  \[
+  \forall K,L\text{ connected simple graphs on }6\text{ vertices},\quad
+  \bigl(
+  \mathcal I_{\mathrm{sheaf}}^{\mathrm{sig}}(K,1)=\mathcal I_{\mathrm{sheaf}}^{\mathrm{sig}}(L,1)
+  \land
+  \beta_1(K)=\beta_1(L)
+  \bigr)
+  \Rightarrow
+  \operatorname{Hist}_1(K)=\operatorname{Hist}_1(L)
+  \]
+- search output at current bound: `None`
+- consequence: no equal-signature / distinct-histogram witness exists at the tested bound
+- next structural extension: raise vertex bound or change profile layer
