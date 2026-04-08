@@ -153,3 +153,10 @@
 - usable admissibility engine for current graph-level regime: 95%
 - full foundational calculus beyond `Z_1` with multiple valuations: 58%
 
+
+## Equal-signature search script normalization
+- script: `examples/search_equal_signature_pairs.py`
+- repo-root import path fixed
+- executable directly via `python3 examples/search_equal_signature_pairs.py`
+- current manual output at configured bound: `None`
+
