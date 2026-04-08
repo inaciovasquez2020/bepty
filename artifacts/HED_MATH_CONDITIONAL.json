@@ -1,0 +1,15 @@
+{
+  "admissible_for_actual_class_exclusion": true,
+  "connected_component_gap": 0,
+  "degree_multiset_equal": true,
+  "edge_count_equal": true,
+  "family_name": "regular_equal_cc_pair",
+  "left_name": "triangular_prism",
+  "left_triangle_count": 2,
+  "right_name": "k33",
+  "right_triangle_count": 0,
+  "status": "conditional-executable-witness",
+  "target_lemma": "Spectral Contraction Lemma bridge placeholder",
+  "triangle_gap": -2,
+  "vertex_count_equal": true
+}
