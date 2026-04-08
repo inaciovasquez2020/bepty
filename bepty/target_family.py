@@ -97,3 +97,26 @@ def connected_components(G: Graph) -> int:
 
 def cycle_rank(G: Graph) -> int:
     return len(G.edges) - G.n + connected_components(G)
+
+
+def triangular_prism_graph() -> Graph:
+    edges = {
+        _norm_edge(0, 1), _norm_edge(1, 2), _norm_edge(2, 0),
+        _norm_edge(3, 4), _norm_edge(4, 5), _norm_edge(5, 3),
+        _norm_edge(0, 3), _norm_edge(1, 4), _norm_edge(2, 5),
+    }
+    return Graph(n=6, edges=frozenset(edges))
+
+
+def k33_graph() -> Graph:
+    left = [0, 1, 2]
+    right = [3, 4, 5]
+    edges = {_norm_edge(u, v) for u in left for v in right}
+    return Graph(n=6, edges=frozenset(edges))
+
+
+def regular_equal_cc_pair() -> FamilyPair:
+    base = Graph(n=0, edges=frozenset())
+    plus = k33_graph()
+    minus = triangular_prism_graph()
+    return FamilyPair(base=base, plus=plus, minus=minus, twist_edge=(0, 0))
