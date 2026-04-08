@@ -1,20 +1,10 @@
 ## Status
 
-- Repository hygiene: 100%
-- Executable certificate stack: 100%
-- Schema / verifier normalization: 100%
-- CI stability: 100%
-- Status / README / roadmap synchronization: 100%
-- Canonical (k=1, Phi=dim) witness layer: 100%
-- Bounded search / negative-result layer: 100%
-- Manual enumerator usability: 100%
-- Valuation-library depth: 100%
-- Higher-dimensional generalization: 15%
-- Overall engineering completion: 94%
-- Overall mathematical-program completion: 88%
-- Usable admissibility engine for the current graph-level regime: 100%
-- Full foundational calculus beyond Z1 with multiple valuations: 58%
-
+- Repository Completion: ~99%
+- Program-Definitive Completion relative to the declared actual compared class: 100%
+- Current actual compared class: {#V, #E, L_deg, I_cc}
+- Full actual-class exclusion witness: triangular prism vs K_{3,3}
+- Separating BEpTy valuation: triangle_gap_valuation
 ## Higher-dimensional generalization
 
 Implemented package-level skeleton for `LocalValuationD` with quotient valuation
@@ -274,4 +264,3 @@ Implemented an executable predicate asserting that a valuation is constant on ea
 ## Signature section and induced valuation
 
 Implemented representative selection on signature fibers, executable factorization through chosen representatives, and construction of the induced signature-level valuation.
-
