@@ -15,3 +15,11 @@ def component_cycle_valuation(A: Graph, B: Graph) -> BEpTyValuation:
         component_gap=connected_components(B) - connected_components(A),
         cycle_rank_gap=cycle_rank(B) - cycle_rank(A),
     )
+
+
+def first_betti_number(G: Graph) -> int:
+    return cycle_rank(G)
+
+
+def betti_gap_valuation(A: Graph, B: Graph) -> int:
+    return first_betti_number(B) - first_betti_number(A)
