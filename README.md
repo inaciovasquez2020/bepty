@@ -182,3 +182,7 @@ Implemented canonical manifest construction for higher-dimensional certificates,
 
 Implemented deterministic read/write helpers for higher-dimensional manifests, with an executable round-trip transport test.
 
+## Higher-dimensional manifest verification
+
+Implemented deterministic verification for in-memory and file-backed higher-dimensional manifests, with executable acceptance and rejection tests.
+
