@@ -28,3 +28,11 @@
 - local_exhaustion_demo.py added
 - C4 vs Tree witness added
 - CI checks executable toy demo
+
+
+## Profiled Betti layer
+- Established:
+  - `beta_prof_1` separates `Theta(3,3,3)` from `Dumbbell(6,6)`
+  - strictly finer than first Betti rank
+- Open:
+  - sheaf nonrecoverability target

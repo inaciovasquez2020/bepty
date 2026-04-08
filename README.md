@@ -46,3 +46,15 @@ Status:
 - `notes/URF_INVARIANT_MATCHING.md` — URF invariant to BEpTy valuation match
 - `examples/c4_vs_tree_demo.md` — minimal cycle-vs-tree worked example
 - `examples/local_exhaustion_demo.py` — executable toy demo
+
+
+## Profiled Betti separation
+- Established witness:
+  - `Theta(3,3,3)` and `Dumbbell(6,6)` have equal first Betti number `2`
+  - but distinct profiled valuations:
+    - `beta_prof_1(Theta(3,3,3)) = (2, {6:3})`
+    - `beta_prof_1(Dumbbell(6,6)) = (2, {6:2, 12:1})`
+- Current proved claim:
+  - `beta_prof_R` is strictly finer than first Betti rank.
+- Open frontier:
+  - nonrecoverability from the chosen sheaf-theoretic comparison class.

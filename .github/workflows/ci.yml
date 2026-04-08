@@ -32,4 +32,5 @@ jobs:
           grep -q "CASE: Tree" /tmp/local_exhaustion_demo.out
           grep -q "beta_dim_R(G): 1" /tmp/local_exhaustion_demo.out
           grep -q "beta_dim_R(G): 0" /tmp/local_exhaustion_demo.out
-
+      - name: Run profiled Betti demo
+        run: python3 examples/profiled_betti_demo.py
