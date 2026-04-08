@@ -130,3 +130,7 @@ but
 
 Implemented `ValuationSpec` and `ValuationRegistry` as the canonical descriptor layer for multi-valuation evaluation and schema-normalized registry export.
 
+## Multi-valuation codec
+
+Implemented deterministic JSON serialization for bundled multi-valuation certificates, with sorted-key normalization and executable codec tests.
+
