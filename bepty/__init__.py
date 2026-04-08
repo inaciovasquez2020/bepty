@@ -6,3 +6,4 @@ from .multi_valuation_hash import certificate_sha256
 from .multi_valuation_schema import validate_certificate_dict
 from .multi_valuation_verify import verify_certificate
 from .multi_valuation_codec import certificate_from_dict, certificate_from_json, certificate_to_dict, certificate_to_json
+from .multi_valuation_bundle import build_certificate

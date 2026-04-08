@@ -154,3 +154,7 @@ Implemented a minimal CLI entry path for normalized certificate verification fro
 
 Extended the deterministic codec with `certificate_from_dict` and `certificate_from_json`, giving a normalized round-trip transport path with executable round-trip tests.
 
+## Multi-valuation bundle builder
+
+Implemented `build_certificate` as the canonical construction path from a valuation registry and signature function to a bundled multi-valuation certificate, with an executable end-to-end builder test.
+
