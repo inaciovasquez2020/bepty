@@ -194,3 +194,7 @@ Implemented a minimal CLI entry path for higher-dimensional manifest verificatio
 
 Implemented `ConcreteHigherDimensionalValuation` on a matrix-defined finite \(\mathbb F_2\)-complex, supplying executable cycle-space nullity and local-cycle-span rank evaluation to cover the remaining higher-dimensional bottleneck.
 
+## Higher-dimensional registry bridge
+
+Implemented a bridge from concrete higher-dimensional valuations into the canonical multi-valuation registry layer, with executable residual-dimension registry tests.
+
