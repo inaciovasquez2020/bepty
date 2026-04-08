@@ -25,3 +25,12 @@ def certificate_to_json(cert: Any) -> str:
         sort_keys=True,
         separators=(",", ":"),
     )
+
+def certificate_from_dict(obj: dict) -> dict:
+    return {
+        "signature": dict(obj["signature"]),
+        "valuations": dict(obj["valuations"]),
+    }
+
+def certificate_from_json(s: str) -> dict:
+    return certificate_from_dict(json.loads(s))

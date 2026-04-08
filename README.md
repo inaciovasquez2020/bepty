@@ -150,3 +150,7 @@ Implemented normalized certificate verification combining schema validation and 
 
 Implemented a minimal CLI entry path for normalized certificate verification from JSON, with an executable end-to-end subprocess test.
 
+## Multi-valuation round-trip codec
+
+Extended the deterministic codec with `certificate_from_dict` and `certificate_from_json`, giving a normalized round-trip transport path with executable round-trip tests.
+
