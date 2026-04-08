@@ -25,3 +25,4 @@ from .joint_signature_completeness import joint_signature_complete
 
 from .signature_witness_table import build_signature_witness_table
 from .signature_fiber_generation import witness_family_generates_signature_fibers
+from .fiber_representative import every_admissible_fiber_has_registered_representative

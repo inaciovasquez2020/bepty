@@ -222,3 +222,7 @@ Implemented an executable witness-table builder recording bundled signatures tog
 
 Implemented an executable predicate for whether a witness family generates all observed signature fibers, with true/false regression tests.
 
+## Fiber representative predicate
+
+Implemented an executable predicate asserting that every admissible observed signature fiber has a registered representative, with true/false regression tests.
+
