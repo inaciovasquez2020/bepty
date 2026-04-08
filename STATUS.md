@@ -115,3 +115,17 @@
 - search output at current bound: `None`
 - consequence: no equal-signature / distinct-histogram witness exists at the tested bound
 - next structural extension: raise vertex bound or change profile layer
+
+
+## Certificate verification layer
+- schema added: `schemas/bepty_certificate.schema.json`
+- emitter added: `examples/emit_bepty_certificate.py`
+- verifier added: `verifier/verify_bepty_certificate.py`
+- tests cover:
+  - valid emitted certificate
+  - malformed certificate rejection
+  - tampered-hash certificate rejection
+- CI covers:
+  - pytest certificate test path
+  - direct emitter-to-verifier execution
+
