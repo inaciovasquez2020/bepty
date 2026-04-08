@@ -21,3 +21,10 @@ Status:
 - Foundational formalism
 - Standalone repository
 - Candidate bridge layer to URF after nontrivial applications
+
+
+## Repository layout
+- `theory/` — core BEpTy definitions and laws
+- `notes/` — bridge notes and integration sketches
+- `examples/` — concrete worked examples
+- `STATUS.md` — live project state

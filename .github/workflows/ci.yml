@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  sanity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify repository structure
+        run: |
+          test -f README.md
+          test -f LICENSE
+          test -f STATUS.md
+          test -f THEORY_INDEX.md
+          test -f theory/BEpTy_Foundations.md
+          test -f notes/URF_BRIDGE.md
+          test -f examples/finite_demo.md
+      - name: Verify core laws are present
+        run: |
+          grep -q "Zero law" theory/BEpTy_Foundations.md
+          grep -q "Decomposition law" theory/BEpTy_Foundations.md
+          grep -q "Detection law" theory/BEpTy_Foundations.md
+          grep -q "Monotonicity law" theory/BEpTy_Foundations.md
