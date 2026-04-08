@@ -43,3 +43,14 @@ def test_verify_rejects_hash_tampered_certificate():
     )
     assert proc.returncode != 0
     assert "hash mismatch" in proc.stdout
+
+def test_verify_rejects_version_mismatch_certificate():
+    bad = Path("tests/fixtures/version_mismatch_bepty_certificate.json")
+    proc = subprocess.run(
+        [sys.executable, "verifier/verify_bepty_certificate.py", str(bad)],
+        capture_output=True,
+        text=True,
+    )
+    assert proc.returncode != 0
+    assert "schema validation failed" in proc.stdout
+
