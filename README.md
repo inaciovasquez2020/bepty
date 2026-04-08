@@ -198,3 +198,7 @@ Implemented `ConcreteHigherDimensionalValuation` on a matrix-defined finite \(\m
 
 Implemented a bridge from concrete higher-dimensional valuations into the canonical multi-valuation registry layer, with executable residual-dimension registry tests.
 
+\n## Unified registry manifest
+
+Implemented a canonical manifest path from the registry layer itself, so ordinary and higher-dimensional valuations can inhabit one bundled artifact.
+
