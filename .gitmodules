@@ -1,0 +1,12 @@
+[submodule "external/chronos-urf-rr"]
+	path = external/chronos-urf-rr
+	url = https://github.com/inaciovasquez2020/chronos-urf-rr.git
+[submodule "external/cyclone-terminal-obstruction"]
+	path = external/cyclone-terminal-obstruction
+	url = https://github.com/inaciovasquez2020/cyclone-terminal-obstruction.git
+[submodule "external/cslib-fmt"]
+	path = external/cslib-fmt
+	url = https://github.com/inaciovasquez2020/cslib-fmt.git
+[submodule "external/poincare-new-derivation"]
+	path = external/poincare-new-derivation
+	url = https://github.com/inaciovasquez2020/poincare-new-derivation.git
