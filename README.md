@@ -214,3 +214,7 @@ Implemented an executable predicate for factorization of a valuation through a s
 
 Implemented an executable predicate for joint signature completeness across a finite valuation family, with true/false regression tests.
 
+\n## Signature witness table
+
+Implemented an executable witness-table builder recording bundled signatures together with valuation outputs over a finite sample family.
+

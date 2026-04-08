@@ -22,3 +22,4 @@ from .unified_registry_manifest import build_unified_registry_manifest
 from .single_valuation_extractor import single_valuation_signature_complete
 from .valuation_factorization import valuation_factors_through_coordinate
 from .joint_signature_completeness import joint_signature_complete
+\nfrom .signature_witness_table import build_signature_witness_table
