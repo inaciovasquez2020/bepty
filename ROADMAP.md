@@ -70,3 +70,12 @@
 27. Add radius \(R=2\) search.
 28. Replace \(\operatorname{Hist}_R\) by \(\kappa_R\) in the search target.
 29. Record the first positive or negative result for each \((n,R)\) slice.
+
+
+## Immediate next frontiers
+30. Unify emitter and verifier hashing through `utils.hasher.certificate_hash`.
+31. Add explicit schema-version assertion in tests.
+32. Extend the bounded search from `(n,R)=(6,1)` to `(7,1)`.
+33. Add a `kappa_R`-based search criterion alongside histogram comparison.
+34. Begin valuation-library expansion beyond `Phi = dim`.
+
