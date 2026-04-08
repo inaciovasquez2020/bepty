@@ -246,3 +246,7 @@ Implemented a concrete bounded-search engine with canonical negative-result cert
 
 Implemented an executable semantic-closure predicate for equal-signature agreement across a valuation family, with true/false regression tests.
 
+## Final backend closure
+
+Implemented an executable final-closure predicate combining concrete signature-image equality with fiberwise valuation agreement across the admissible backend.
+
