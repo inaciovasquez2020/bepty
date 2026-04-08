@@ -1,5 +1,8 @@
 # BEpTy
 
+[![CI](https://github.com/inaciovasquez2020/bepty/actions/workflows/ci.yml/badge.svg)](https://github.com/inaciovasquez2020/bepty/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/inaciovasquez2020/bepty)](https://github.com/inaciovasquez2020/bepty/releases/tag/v0.1.0)
+
 BEpTy = Boundary-Encoded presence/Thinness calculus.
 
 Core object:
@@ -28,3 +31,11 @@ Status:
 - `notes/` — bridge notes and integration sketches
 - `examples/` — concrete worked examples
 - `STATUS.md` — live project state
+
+## Release
+- Current tag: `v0.1.0`
+- Release asset: `BEpTy_NOTE.pdf`
+
+## Next theorem target
+- Prove one nontrivial theorem beyond finite normalization.
+- Realize one URF invariant as a BEpTy valuation.
