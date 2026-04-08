@@ -226,3 +226,7 @@ Implemented an executable predicate for whether a witness family generates all o
 
 Implemented an executable predicate asserting that every admissible observed signature fiber has a registered representative, with true/false regression tests.
 
+## Signature image surjectivity
+
+Implemented an executable predicate asserting equality between the concrete signature image and the registered witness-family signature image, with true/false regression tests.
+
