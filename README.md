@@ -234,3 +234,7 @@ Implemented an executable predicate asserting equality between the concrete sign
 
 Implemented an executable predicate combining signature-image equality with fiberwise valuation agreement on the registered witness family.
 
+## Admissible backend joint completeness
+
+Implemented an executable predicate expressing joint valuation agreement on equal-signature pairs across an admissible backend family.
+
