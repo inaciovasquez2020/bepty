@@ -55,3 +55,9 @@
 - exact sheaf package definition recorded
 - invariance lemma added at note level
 - exact nonrecoverability problem remains open
+
+## Colimit-kernel obstruction layer
+- colimit presentation for the exact sheaf package recorded
+- canonical surjection \(\pi_K : C_R(K) \twoheadrightarrow X_R(K)\) recorded
+- kernel obstruction \(\kappa_R(K) := \dim \ker(\pi_K)\) isolated
+- exact recoverability reduced to whether \(\kappa_R(K)\) is determined by \(\mathcal I_{\mathrm{sheaf}}^{\mathrm{exact}}(K,R)\)
