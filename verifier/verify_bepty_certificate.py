@@ -1,9 +1,15 @@
 import json
-import hashlib
 import sys
 from pathlib import Path
 
 import jsonschema
+
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
+from utils.hasher import certificate_hash
 
 def verify(path_str: str) -> int:
     path = Path(path_str)
@@ -43,11 +49,7 @@ def verify(path_str: str) -> int:
         return 1
 
     supplied_hash = data["hash"]
-    core = dict(data)
-    del core["hash"]
-    expected_hash = hashlib.sha256(
-        json.dumps(core, sort_keys=True, separators=(",", ":")).encode()
-    ).hexdigest()
+    expected_hash = certificate_hash(data)
 
     if supplied_hash != expected_hash:
         print("hash mismatch")

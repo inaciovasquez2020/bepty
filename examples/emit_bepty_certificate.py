@@ -1,6 +1,12 @@
 import json
-import hashlib
 from pathlib import Path
+
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
+from utils.hasher import certificate_hash
 
 CERT = {
     "certificate_version": "v0.2.0",
@@ -28,8 +34,7 @@ CERT = {
 }
 
 payload = dict(CERT)
-digest_input = json.dumps(payload, sort_keys=True, separators=(",", ":")).encode()
-payload["hash"] = hashlib.sha256(digest_input).hexdigest()
+payload["hash"] = certificate_hash(payload)
 
 out = Path("artifacts")
 out.mkdir(exist_ok=True)
