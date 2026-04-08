@@ -238,3 +238,7 @@ Implemented an executable predicate combining signature-image equality with fibe
 
 Implemented an executable predicate expressing joint valuation agreement on equal-signature pairs across an admissible backend family.
 
+## Bounded search / negative-result layer
+
+Implemented a concrete bounded-search engine with canonical negative-result certificate, normalized JSON codec, deterministic SHA-256 hashing, schema validation, verification, and manifest construction.
+
