@@ -31,3 +31,32 @@ Unproved:
 \[
 \mathcal I_{\mathrm{sheaf}}(\Theta_{3,3,3})=\mathcal I_{\mathrm{sheaf}}(D_{6,6}).
 \]
+
+
+## Exact comparison target
+Replace the provisional placeholder
+\[
+\sigma_{\mathrm{cell}}(G)=\text{constant-}\mathbb F_2\text{ cellular sheaf isomorphism type}
+\]
+by an exact categorical invariant package
+\[
+\mathcal I_{\mathrm{sheaf}}^{\mathrm{exact}}(G)
+:=
+\bigl(
+\mathbf{Sh}_{\mathbb F_2}(G),
+\Gamma,
+H^0,
+H^1
+\bigr)
+\]
+or by a strictly specified computable surrogate.
+
+## Formal frontier
+Prove or refute:
+\[
+\exists G,H,\exists R\ge 0,\qquad
+\mathcal I_{\mathrm{sheaf}}^{\mathrm{exact}}(G)\cong
+\mathcal I_{\mathrm{sheaf}}^{\mathrm{exact}}(H)
+\quad\land\quad
+\beta^{\mathrm{prof}}_R(G)\neq\beta^{\mathrm{prof}}_R(H).
+\]

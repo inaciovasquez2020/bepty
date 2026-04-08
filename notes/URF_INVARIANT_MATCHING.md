@@ -53,3 +53,20 @@ Established:
 
 Open:
 - nonrecoverability from the chosen sheaf-theoretic comparison class.
+
+
+## Sheaf-profile upgrade
+Current proved layer:
+\[
+\beta^{\mathrm{prof}}_1(\Theta_{3,3,3})\neq
+\beta^{\mathrm{prof}}_1(D_{6,6}),
+\qquad
+\dim H_1(-;\mathbb F_2)=2\text{ on both sides.}
+\]
+
+Current exact frontier:
+\[
+\text{determine whether }\beta^{\mathrm{prof}}_R
+\text{ is recoverable from }
+\mathcal I_{\mathrm{sheaf}}^{\mathrm{exact}}.
+\]
