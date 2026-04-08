@@ -70,3 +70,18 @@
 - verified: \(\kappa_R>0\) in a higher-order relation example
 - verified: equal pairwise-overlap quotient data can coexist with distinct \(\kappa_R\) and distinct \(X_R\) in the toy model
 - frontier unchanged: actual BEpTy witness pair still open
+
+
+## Normalized rooted-ball profile layer
+- verified witness: \(\Theta_{3,3,3}\) and \(D_{6,6}\) have equal \(\beta_1=2\)
+- verified radius-1 local cycle-rank entries are identically \(0\) on both sides
+- verified distinction survives cardinality normalization via rooted-ball type histogram
+- named invariant:
+  \[
+  \operatorname{Hist}_R(K):=\frac{1}{|V(K)|}\{\!\{\operatorname{code}(B_R(v;K),v)\}\!\}_{v\in V(K)}
+  \]
+- verified:
+  \[
+  \operatorname{Hist}_1(\Theta_{3,3,3})\neq \operatorname{Hist}_1(D_{6,6})
+  \]
+- frontier unchanged: exact sheaf equality for a separating witness remains open

@@ -75,3 +75,23 @@ Status:
 - Note: `notes/ADMISSIBLE_MORPHISMS.md`
 - Exact sheaf package: `notes/EXACT_SHEAF_PACKAGE.md`
 - Executable invariance toy demo: `examples/admissible_morphism_demo.py`
+
+
+## Normalized rooted-ball profile witness
+Current executable witness layer:
+\[
+\dim H_1(\Theta_{3,3,3};\mathbb F_2)=\dim H_1(D_{6,6};\mathbb F_2)=2,
+\]
+\[
+\{\!\{\beta_1(B_1(v;\Theta_{3,3,3}))\}\!\}
+=
+\{\!\{0\}\!\}
+=
+\{\!\{\beta_1(B_1(v;D_{6,6}))\}\!\},
+\]
+but
+\[
+\operatorname{Hist}_1(\Theta_{3,3,3})\neq \operatorname{Hist}_1(D_{6,6}),
+\qquad
+\operatorname{Hist}_R(K):=\frac{1}{|V(K)|}\{\!\{\operatorname{code}(B_R(v;K),v)\}\!\}_{v\in V(K)}.
+\]
