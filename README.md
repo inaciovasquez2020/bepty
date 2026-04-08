@@ -210,3 +210,7 @@ Implemented an executable single-valuation signature-completeness predicate, wit
 
 Implemented an executable predicate for factorization of a valuation through a signature coordinate, with true/false regression tests.
 
+## Joint signature completeness predicate
+
+Implemented an executable predicate for joint signature completeness across a finite valuation family, with true/false regression tests.
+
