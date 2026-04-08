@@ -146,3 +146,7 @@ Implemented deterministic structural validation for bundled multi-valuation cert
 
 Implemented normalized certificate verification combining schema validation and deterministic hash checking, with executable acceptance and rejection tests.
 
+## Multi-valuation CLI
+
+Implemented a minimal CLI entry path for normalized certificate verification from JSON, with an executable end-to-end subprocess test.
+
