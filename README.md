@@ -186,3 +186,7 @@ Implemented deterministic read/write helpers for higher-dimensional manifests, w
 
 Implemented deterministic verification for in-memory and file-backed higher-dimensional manifests, with executable acceptance and rejection tests.
 
+## Higher-dimensional manifest CLI
+
+Implemented a minimal CLI entry path for higher-dimensional manifest verification from JSON, with an executable end-to-end subprocess test.
+
