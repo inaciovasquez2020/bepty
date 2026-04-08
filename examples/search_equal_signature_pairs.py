@@ -1,5 +1,9 @@
 from itertools import combinations
 from collections import defaultdict
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from examples.actual_witness_generator import Graph
 from examples.exact_sheaf_package_compare import (
