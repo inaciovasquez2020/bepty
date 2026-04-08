@@ -170,3 +170,7 @@ Implemented deterministic manifest read/write helpers, with an executable round-
 
 Implemented deterministic manifest verification for in-memory and file-backed manifests, with executable acceptance and rejection tests.
 
+## Higher-dimensional certificate layer
+
+Implemented a canonical higher-dimensional certificate path with residual valuation, normalized JSON codec, deterministic SHA-256 hashing, schema validation, and verification tests.
+
