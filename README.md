@@ -126,3 +126,7 @@ but
 - overall engineering completion: 94%
 - overall mathematical-program completion: 88%
 
+## Valuation registry
+
+Implemented `ValuationSpec` and `ValuationRegistry` as the canonical descriptor layer for multi-valuation evaluation and schema-normalized registry export.
+
