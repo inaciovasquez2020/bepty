@@ -34,6 +34,12 @@ Status:
 - Candidate bridge layer to URF after nontrivial applications
 
 
+
+## Multi-valuation calculus
+
+Implemented `MultiValuationCertificate` and `MultiValuationFactorization` as the repository-level skeleton for bundled valuations beyond `Z1`, with a passing executable sanity test.
+
+
 ## Repository layout
 - `theory/` — core BEpTy definitions and laws
 - `notes/` — bridge notes and integration sketches
