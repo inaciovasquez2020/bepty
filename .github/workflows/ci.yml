@@ -34,3 +34,5 @@ jobs:
           grep -q "beta_dim_R(G): 0" /tmp/local_exhaustion_demo.out
       - name: Run profiled Betti demo
         run: python3 examples/profiled_betti_demo.py
+      - name: Run sheaf/profile target demo
+        run: python3 examples/sheaf_profile_target.py

@@ -36,3 +36,9 @@
   - strictly finer than first Betti rank
 - Open:
   - sheaf nonrecoverability target
+
+
+## Sheaf comparison layer
+- provisional comparison class fixed
+- target demo added
+- current state: provisional equal-sheaf / distinct-profile witness passes
