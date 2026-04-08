@@ -61,3 +61,12 @@
 - canonical surjection \(\pi_K : C_R(K) \twoheadrightarrow X_R(K)\) recorded
 - kernel obstruction \(\kappa_R(K) := \dim \ker(\pi_K)\) isolated
 - exact recoverability reduced to whether \(\kappa_R(K)\) is determined by \(\mathcal I_{\mathrm{sheaf}}^{\mathrm{exact}}(K,R)\)
+
+
+## Toy-model colimit-kernel verification
+- executable test file added: `tests/test_colimit_kernel_obstruction.py`
+- verified: \(\dim X_R(K)=\dim C_R(K)-\kappa_R(K)\) in the toy model
+- verified: \(\kappa_R=0\) in an overlap-generated example
+- verified: \(\kappa_R>0\) in a higher-order relation example
+- verified: equal pairwise-overlap quotient data can coexist with distinct \(\kappa_R\) and distinct \(X_R\) in the toy model
+- frontier unchanged: actual BEpTy witness pair still open

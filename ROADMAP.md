@@ -57,3 +57,9 @@
 20. Determine whether \(\kappa_R\) is invariant under exact admissible morphisms.
 21. If \(\kappa_R\) is not exact-package determined, promote \(\kappa_R\) to the new profiled obstruction.
 22. If \(\kappa_R\) is exact-package determined, replace the profile by a finer higher-overlap kernel invariant.
+
+
+## Verified reduction
+23. Treat the toy-model colimit-kernel tests as verified reduction evidence that \(\kappa_R\) is the exact obstruction term at diagram level.
+24. Replace toy diagrams by actual \(B_R(v;K)\) data from one explicit witness generator.
+25. Search for \(K,L,R\) with isomorphic exact packages and distinct \(\kappa_R\).
