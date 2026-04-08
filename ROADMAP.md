@@ -51,3 +51,9 @@
 16. Prove the profiled valuation invariance lemma in exact form.
 17. Replace note-level exact sheaf package by a fully specified categorical implementation.
 18. Resolve the exact sheaf nonrecoverability problem.
+
+## Colimit-kernel program
+19. Compute \(C_R(K)\), \(\pi_K\), and \(\kappa_R(K)\) on the first explicit witness pair.
+20. Determine whether \(\kappa_R\) is invariant under exact admissible morphisms.
+21. If \(\kappa_R\) is not exact-package determined, promote \(\kappa_R\) to the new profiled obstruction.
+22. If \(\kappa_R\) is exact-package determined, replace the profile by a finer higher-overlap kernel invariant.
