@@ -2,3 +2,4 @@ from .local_valuation_d import LocalValuationD
 from .multi_valuation import MultiValuationCertificate, MultiValuationFactorization
 from .valuation_registry import ValuationRegistry, ValuationSpec
 from .multi_valuation_codec import certificate_to_dict, certificate_to_json
+from .multi_valuation_hash import certificate_sha256

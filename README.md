@@ -134,3 +134,7 @@ Implemented `ValuationSpec` and `ValuationRegistry` as the canonical descriptor 
 
 Implemented deterministic JSON serialization for bundled multi-valuation certificates, with sorted-key normalization and executable codec tests.
 
+## Multi-valuation hashing
+
+Implemented deterministic SHA-256 hashing for bundled multi-valuation certificates on top of the normalized JSON codec, with executable hash-consistency tests.
+
