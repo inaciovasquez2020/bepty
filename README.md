@@ -37,7 +37,7 @@ Status:
 
 ## Multi-valuation calculus
 
-Implemented `MultiValuationCertificate` and `MultiValuationFactorization` as the repository-level skeleton for bundled valuations beyond `Z1`, with a passing executable sanity test.
+Implemented `MultiValuationCertificate` and `MultiValuationFactorization` as the repository-level skeleton for bundled valuations beyond `Z1`, now supporting direct valuation-registry integration with passing executable sanity tests.
 
 
 ## Repository layout
