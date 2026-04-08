@@ -7,6 +7,11 @@ from typing import Any
 def certificate_to_dict(cert: Any) -> dict:
     if is_dataclass(cert):
         return asdict(cert)
+    if isinstance(cert, dict):
+        return {
+            "signature": dict(cert["signature"]),
+            "valuations": dict(cert["valuations"]),
+        }
     if hasattr(cert, "signature") and hasattr(cert, "valuations"):
         return {
             "signature": dict(cert.signature),
