@@ -1,0 +1,24 @@
+{
+  "object_type": "graph",
+  "valuation": "dim",
+  "radius": 1,
+  "graph_A": {
+    "name": "theta_3_3_3",
+    "edges": [[0,1],[1,2],[2,3],[0,4],[4,5],[5,3],[0,6],[6,7],[7,3]]
+  },
+  "graph_B": {
+    "name": "dumbbell_6_6",
+    "edges": [[0,1],[1,2],[2,0],[2,3],[3,4],[4,5],[5,3]]
+  },
+  "xR_vanishes": false,
+  "beta_value": 3,
+  "profile_A": {
+    "kind": "normalized_rooted_ball_histogram",
+    "radius": 1
+  },
+  "profile_B": {
+    "kind": "normalized_rooted_ball_histogram",
+    "radius": 1
+  },
+  "hash": "7a7f7d7b0f5b5c0f2f5db1e8f0d0d6f2c1d7b3c4e5f60718293a4b5c6d7e8f90"
+}
