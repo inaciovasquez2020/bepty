@@ -19,3 +19,4 @@ from .higher_dimensional_concrete import ConcreteHigherDimensionalValuation, Mat
 from .higher_dimensional_registry_bridge import build_higher_dimensional_registry, make_higher_dimensional_spec
 
 from .unified_registry_manifest import build_unified_registry_manifest
+from .single_valuation_extractor import single_valuation_signature_complete

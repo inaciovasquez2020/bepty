@@ -202,3 +202,7 @@ Implemented a bridge from concrete higher-dimensional valuations into the canoni
 
 Implemented a canonical manifest path from the registry layer itself, so ordinary and higher-dimensional valuations can inhabit one bundled artifact.
 
+## Single-valuation extraction lemma
+
+Implemented an executable single-valuation signature-completeness predicate, with true/false regression tests.
+
