@@ -254,3 +254,7 @@ Implemented an executable final-closure predicate combining concrete signature-i
 
 Implemented an executable predicate asserting that a valuation is constant on each observed signature fiber, with true/false regression tests.
 
+## Signature section and induced valuation
+
+Implemented representative selection on signature fibers, executable factorization through chosen representatives, and construction of the induced signature-level valuation.
+

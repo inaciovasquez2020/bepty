@@ -33,3 +33,4 @@ from .bounded_search_negative_result import NegativeResultCertificate, build_man
 from .admissible_backend_semantic_closure import admissible_backend_semantic_closure
 from .final_backend_closure import final_backend_closure
 from .valuation_descends import valuation_descends_to_signature_image
+from .signature_section import choose_signature_representatives, induced_signature_function, valuation_factors_via_representatives
