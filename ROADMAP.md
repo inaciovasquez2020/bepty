@@ -32,3 +32,10 @@
 
 5. Prove the BEpTy high-girth theorem in full detail.
 6. Replace the zero-local-rank shortcut with an exact span computation.
+
+
+## Next proof frontier
+7. Prove that the profiled valuation is strictly finer than first Betti rank.
+8. Fix an explicit sheaf-theoretic comparison class.
+9. Construct a candidate equal-sheaf / distinct-profile witness pair.
+10. Prove or refute sheaf nonrecoverability for the chosen class.

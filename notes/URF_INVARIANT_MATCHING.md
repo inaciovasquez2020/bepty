@@ -41,3 +41,15 @@ Z_1(G)=\langle Z_1(B_R(v)) : v\in V(G)\rangle.
 \iff
 \text{nonlocal residual cycle structure survives local exhaustion.}
 \]
+
+
+## Profiled valuation upgrade
+\[
+eta^{\mathrm{prof}}_R(G):=\bigl(\dim Z_1(G)-\dim X_R(G),\ \sigma_R(G)\bigr).
+\]
+
+Established:
+- strictly finer than first Betti rank via `Theta(3,3,3)` vs `Dumbbell(6,6)`.
+
+Open:
+- nonrecoverability from the chosen sheaf-theoretic comparison class.
