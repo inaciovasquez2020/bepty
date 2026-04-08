@@ -96,3 +96,25 @@ A \text{ closed},\quad B \text{ open},\quad A\subseteq B
 \Longrightarrow\qquad \beta_{\mathrm{int}}(A,B)=0 \iff A=B.
 \]
 
+
+## URF-valued specialization
+
+For graph-theoretic URF applications, define
+\[
+X_R(G):=Z_1(G)\big/\langle Z_1(B_R(v)) : v\in V(G)\rangle.
+\]
+
+Define the binary BEpTy valuation
+\[
+\mathrm{LocalExhaustion}_R(G):=
+\begin{cases}
+0,&X_R(G)=0,\\
+1,&X_R(G)\neq 0.
+\end{cases}
+\]
+
+Define the dimension-valued refinement
+\[
+\beta^{\dim}_{R}(G):=\dim_{\mathbf F_2} X_R(G).
+\]
+

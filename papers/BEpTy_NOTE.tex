@@ -89,6 +89,42 @@ B\setminus A=(1,2),
 \beta_{\mathrm{int}}(A,B)=1.
 \]
 
+\section{URF-valued specialization}
+
+For URF-facing graph applications, define
+\[
+X_R(G):=Z_1(G)\big/\langle Z_1(B_R(v)) : v\in V(G)\rangle.
+\]
+
+Define
+\[
+\mathrm{LocalExhaustion}_R(G):=
+\begin{cases}
+0,&X_R(G)=0,\\
+1,&X_R(G)\neq 0.
+\end{cases}
+\]
+
+Define the dimension-valued refinement
+\[
+\beta^{\dim}_{R}(G):=\dim_{\mathbf F_2} X_R(G).
+\]
+
+\begin{theorem}[URF detection reformulation]
+\(\mathrm{LocalExhaustion}_R(G)=0\) iff local \(R\)-ball cycles exhaust global cycle structure.
+\end{theorem}
+
+\begin{theorem}[High-girth target]
+If \(\operatorname{girth}(G)>2R\), then \(Z_1(B_R(v))=0\) for every \(v\in V(G)\).
+\end{theorem}
+
+\begin{corollary}[High-girth reduction target]
+If \(\operatorname{girth}(G)>2R\), then
+\[
+X_R(G)=Z_1(G).
+\]
+\end{corollary}
+
 \section{Program threshold}
 
 The next threshold is:
