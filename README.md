@@ -218,3 +218,7 @@ Implemented an executable predicate for joint signature completeness across a fi
 
 Implemented an executable witness-table builder recording bundled signatures together with valuation outputs over a finite sample family.
 
+## Signature fiber generation
+
+Implemented an executable predicate for whether a witness family generates all observed signature fibers, with true/false regression tests.
+

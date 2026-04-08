@@ -24,3 +24,4 @@ from .valuation_factorization import valuation_factors_through_coordinate
 from .joint_signature_completeness import joint_signature_complete
 
 from .signature_witness_table import build_signature_witness_table
+from .signature_fiber_generation import witness_family_generates_signature_fibers
