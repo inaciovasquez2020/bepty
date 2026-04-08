@@ -4,5 +4,6 @@
   "radius": 1,
   "xR_vanishes": false,
   "beta_value": 2,
-  "hash": 12345
+  "hash": 12345,
+  "certificate_version": "v0.2.0"
 }

@@ -3,6 +3,7 @@ import hashlib
 from pathlib import Path
 
 CERT = {
+    "certificate_version": "v0.2.0",
     "object_type": "graph",
     "valuation": "dim",
     "radius": 1,
