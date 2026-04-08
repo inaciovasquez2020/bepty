@@ -17,5 +17,9 @@
 - URF bridge note present
 
 ## Next threshold
-- Prove one nontrivial theorem beyond finite normalization
-- Exhibit one URF invariant as a BEpTy valuation
+- Prove the high-girth target for local exhaustion
+- Derive the high-girth reduction to global cycle space
+- Add one explicit nonzero LocalExhaustion graph example
+
+## Current release
+- v0.2.0
