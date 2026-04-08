@@ -24,3 +24,12 @@ jobs:
           grep -q "Decomposition law" theory/BEpTy_Foundations.md
           grep -q "Detection law" theory/BEpTy_Foundations.md
           grep -q "Monotonicity law" theory/BEpTy_Foundations.md
+
+      - name: Run local exhaustion demo
+        run: |
+          python3 examples/local_exhaustion_demo.py > /tmp/local_exhaustion_demo.out
+          grep -q "CASE: C4" /tmp/local_exhaustion_demo.out
+          grep -q "CASE: Tree" /tmp/local_exhaustion_demo.out
+          grep -q "beta_dim_R(G): 1" /tmp/local_exhaustion_demo.out
+          grep -q "beta_dim_R(G): 0" /tmp/local_exhaustion_demo.out
+

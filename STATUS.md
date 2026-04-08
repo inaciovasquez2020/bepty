@@ -23,3 +23,8 @@
 
 ## Current release
 - v0.2.0
+
+## Executable examples
+- local_exhaustion_demo.py added
+- C4 vs Tree witness added
+- CI checks executable toy demo

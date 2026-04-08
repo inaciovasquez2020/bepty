@@ -29,3 +29,6 @@
 ## Integration threshold
 - One proved URF-facing theorem
 - One explicit URF invariant realized as a BEpTy valuation
+
+5. Prove the BEpTy high-girth theorem in full detail.
+6. Replace the zero-local-rank shortcut with an exact span computation.
