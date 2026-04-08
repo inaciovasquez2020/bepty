@@ -22,3 +22,14 @@ def test_emit_and_verify_certificate():
         [sys.executable, "verifier/verify_bepty_certificate.py", str(target)],
         check=True,
     )
+
+def test_verify_rejects_malformed_certificate():
+    bad = Path("tests/fixtures/invalid_bepty_certificate.json")
+    proc = subprocess.run(
+        [sys.executable, "verifier/verify_bepty_certificate.py", str(bad)],
+        capture_output=True,
+        text=True,
+    )
+    assert proc.returncode != 0
+    assert "schema validation failed" in proc.stdout
+
