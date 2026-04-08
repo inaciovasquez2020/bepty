@@ -242,3 +242,7 @@ Implemented an executable predicate expressing joint valuation agreement on equa
 
 Implemented a concrete bounded-search engine with canonical negative-result certificate, normalized JSON codec, deterministic SHA-256 hashing, schema validation, verification, and manifest construction.
 
+## Admissible backend semantic closure
+
+Implemented an executable semantic-closure predicate for equal-signature agreement across a valuation family, with true/false regression tests.
+
