@@ -48,3 +48,10 @@
 - exact comparison target recorded
 - profiled valuation exact nonrecoverability question isolated
 - current status: open
+
+
+## Morphism and exact sheaf package
+- admissible BEpTy morphism definition recorded
+- exact sheaf package definition recorded
+- invariance lemma added at note level
+- exact nonrecoverability problem remains open

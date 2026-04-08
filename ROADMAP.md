@@ -45,3 +45,9 @@
 12. Prove invariance of the profiled valuation under the intended BEpTy morphisms.
 13. Search for an exact equal-sheaf / distinct-profile witness pair.
 14. Prove or refute sheaf nonrecoverability for the exact class.
+
+
+15. Formalize admissible BEpTy morphisms.
+16. Prove the profiled valuation invariance lemma in exact form.
+17. Replace note-level exact sheaf package by a fully specified categorical implementation.
+18. Resolve the exact sheaf nonrecoverability problem.
