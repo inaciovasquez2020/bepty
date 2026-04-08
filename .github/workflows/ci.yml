@@ -44,3 +44,5 @@ jobs:
         run: python3 -m pytest -q tests/test_actual_witness_generator.py
       - name: Run exact sheaf package comparison tests
         run: python3 -m pytest -q tests/test_exact_sheaf_package_compare.py
+      - name: Run BEpTy certificate emission test
+        run: python3 -m pytest -q tests/test_bepty_certificate_emission.py
