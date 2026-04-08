@@ -129,3 +129,11 @@
   - pytest certificate test path
   - direct emitter-to-verifier execution
 
+
+## CI recovery
+- failing interval identified: workflow edits around commits `613f48e` and `10bc3e4`
+- root cause: duplicated workflow header in `.github/workflows/ci.yml`
+- fix committed in `7512719`
+- latest confirmed CI run after fix: success
+- current state: repository CI recovered to green
+
