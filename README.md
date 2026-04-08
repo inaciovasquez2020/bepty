@@ -178,3 +178,7 @@ Implemented a canonical higher-dimensional certificate path with residual valuat
 
 Implemented canonical manifest construction for higher-dimensional certificates, bundling normalized certificate payload, deterministic SHA-256 digest, and transport JSON with an executable end-to-end test.
 
+## Higher-dimensional manifest I/O
+
+Implemented deterministic read/write helpers for higher-dimensional manifests, with an executable round-trip transport test.
+
