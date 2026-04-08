@@ -42,3 +42,5 @@ jobs:
         run: python3 -m pytest -q tests/test_colimit_kernel_obstruction.py
       - name: Run actual witness generator tests
         run: python3 -m pytest -q tests/test_actual_witness_generator.py
+      - name: Run exact sheaf package comparison tests
+        run: python3 -m pytest -q tests/test_exact_sheaf_package_compare.py

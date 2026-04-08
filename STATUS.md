@@ -85,3 +85,15 @@
   \operatorname{Hist}_1(\Theta_{3,3,3})\neq \operatorname{Hist}_1(D_{6,6})
   \]
 - frontier unchanged: exact sheaf equality for a separating witness remains open
+
+
+## Exact sheaf comparison check
+- executable exact-sheaf signature comparator added: `examples/exact_sheaf_package_compare.py`
+- executable test added: `tests/test_exact_sheaf_package_compare.py`
+- verified on current witness pair:
+  \[
+  \mathcal I_{\mathrm{sheaf}}^{\mathrm{sig}}(\Theta_{3,3,3},1)\neq
+  \mathcal I_{\mathrm{sheaf}}^{\mathrm{sig}}(D_{6,6},1)
+  \]
+- consequence: current witness does not realize equal-package / distinct-profile separation
+- frontier unchanged: exact equal-package witness remains open
