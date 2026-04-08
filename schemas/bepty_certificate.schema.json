@@ -10,7 +10,7 @@
     "radius": { "type": "number", "minimum": 0 },
     "graph_A": { "type": "object" },
     "graph_B": { "type": "object" },
-    "xR_vanishes": { "boolean": true },
+    "xR_vanishes": { "type": "boolean" },
     "beta_value": { "type": "integer" },
     "profile_A": { "type": "object" },
     "profile_B": { "type": "object" },
