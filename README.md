@@ -1,3 +1,11 @@
+## Higher-dimensional generalization
+
+Implemented package-level skeleton for `LocalValuationD` with quotient valuation
+\[
+\beta_d(K)=\dim_{\mathbb F_2}(Z_d(K)/\mathcal L_d(K)).
+\]
+Current repository status: architecture exported at package root, quotient-dimension sanity test passing, full higher-dimensional cycle/local-span implementation still open.
+
 # BEpTy
 
 [![CI](https://github.com/inaciovasquez2020/bepty/actions/workflows/ci.yml/badge.svg)](https://github.com/inaciovasquez2020/bepty/actions/workflows/ci.yml)
