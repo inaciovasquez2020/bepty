@@ -1,0 +1,68 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage[margin=1in]{geometry}
+
+\title{BEpTy: A Calculus of Structured Absence}
+\author{Inacio Vasquez}
+\date{\today}
+
+\newtheorem{definition}{Definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}
+
+\begin{document}
+\maketitle
+
+\section{Primitive datum}
+
+Let \(A \subseteq B \subseteq X\).
+
+\begin{definition}[BEpTy absence object]
+\(\mathbb E(A,B) := B \setminus A.\)
+\end{definition}
+
+\begin{definition}[Valuation]
+For an admissible valuation \(\Phi\), define
+\(\beta_\Phi(A,B) := \Phi(B \setminus A).\)
+\end{definition}
+
+\section{Core laws}
+
+\begin{theorem}[Zero Law]
+\(\mathbb E(A,A)=\varnothing.\)
+\end{theorem}
+
+\begin{theorem}[Decomposition Law]
+If \(A \subseteq B \subseteq C\), then
+\(\mathbb E(A,C)=\mathbb E(A,B)\sqcup \mathbb E(B,C).\)
+\end{theorem}
+
+\begin{corollary}[Additive valuation law]
+If \(\Phi(\varnothing)=0\) and \(\Phi\) is additive on disjoint unions, then
+\(\beta_\Phi(A,C)=\beta_\Phi(A,B)\oplus \beta_\Phi(B,C).\)
+\end{corollary}
+
+\section{Finite specialization}
+
+Assume \(X\) is finite and \(\Phi(E)=|E|\). Then
+\[
+\beta(A,B):=|B\setminus A|.
+\]
+
+\begin{theorem}[Finite Detection]
+\(\beta(A,B)=0 \iff A=B.\)
+\end{theorem}
+
+\begin{theorem}[Finite Unit Classification]
+\(\beta(A,B)=1 \iff \exists !x\in X\ \text{such that}\ B=A\cup\{x\}.\)
+\end{theorem}
+
+\section{Program threshold}
+
+The next threshold is:
+\begin{enumerate}
+\item prove one nontrivial theorem beyond finite normalization;
+\item identify one URF invariant expressible as a BEpTy valuation.
+\end{enumerate}
+
+\end{document}
