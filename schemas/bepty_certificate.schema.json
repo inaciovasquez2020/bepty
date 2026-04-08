@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BEpTy Certificate",
+  "description": "Canonical proof of residual valuation and local vanishing",
+  "type": "object",
+  "properties": {
+    "object_type": { "type": "string", "enum": ["graph", "simplicial_complex"] },
+    "valuation": { "type": "string", "enum": ["dim", "entropy", "euler"] },
+    "radius": { "type": "number", "minimum": 0 },
+    "graph_A": { "type": "object", "description": "Adjacency/Structure of A" },
+    "graph_B": { "type": "object", "description": "Adjacency/Structure of B" },
+    "xR_vanishes": { "type": "boolean" },
+    "beta_value": { "type": "integer" },
+    "profile_A": { "type": "object", "description": "Local exhaustion profile for A" },
+    "profile_B": { "type": "object", "description": "Local exhaustion profile for B" },
+    "hash": { "type": "string", "description": "Cryptographic digest of certificate content" }
+  },
+  "required": ["object_type", "valuation", "radius", "xR_vanishes", "beta_value", "hash"]
+}
