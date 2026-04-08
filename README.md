@@ -158,3 +158,7 @@ Extended the deterministic codec with `certificate_from_dict` and `certificate_f
 
 Implemented `build_certificate` as the canonical construction path from a valuation registry and signature function to a bundled multi-valuation certificate, with an executable end-to-end builder test.
 
+## Multi-valuation manifest
+
+Implemented `build_manifest` as the canonical transport object combining bundled certificate, normalized JSON payload, and deterministic SHA-256 digest, with an executable end-to-end manifest test.
+
