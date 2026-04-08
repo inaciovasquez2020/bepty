@@ -137,3 +137,19 @@
 - latest confirmed CI run after fix: success
 - current state: repository CI recovered to green
 
+
+## Completion snapshot
+- repository hygiene: 96%
+- executable certificate stack: 98%
+- schema / verifier normalization: 98%
+- CI stability: 96%
+- status / README / roadmap synchronization: 93%
+- canonical `(k=1, Phi=dim)` witness layer: 96%
+- bounded search / negative-result layer: 90%
+- valuation-library depth: 35%
+- higher-dimensional generalization: 15%
+- overall engineering completion: 94%
+- overall mathematical-program completion: 88%
+- usable admissibility engine for current graph-level regime: 95%
+- full foundational calculus beyond `Z_1` with multiple valuations: 58%
+
