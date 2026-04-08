@@ -138,3 +138,7 @@ Implemented deterministic JSON serialization for bundled multi-valuation certifi
 
 Implemented deterministic SHA-256 hashing for bundled multi-valuation certificates on top of the normalized JSON codec, with executable hash-consistency tests.
 
+## Multi-valuation schema
+
+Implemented deterministic structural validation for bundled multi-valuation certificate dictionaries, with executable acceptance and rejection tests.
+
