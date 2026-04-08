@@ -154,6 +154,13 @@
 - full foundational calculus beyond `Z_1` with multiple valuations: 58%
 
 
+## Completion criterion
+
+* exact sheaf frontier resolved
+* exact equal-package witness found or impossibility proved
+* high-girth local-exhaustion theorem stack proved
+* README / ROADMAP / STATUS percentages synchronized
+
 ## Equal-signature search script normalization
 - script: `examples/search_equal_signature_pairs.py`
 - repo-root import path fixed
