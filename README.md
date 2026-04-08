@@ -206,3 +206,7 @@ Implemented a canonical manifest path from the registry layer itself, so ordinar
 
 Implemented an executable single-valuation signature-completeness predicate, with true/false regression tests.
 
+## Valuation factorization predicate
+
+Implemented an executable predicate for factorization of a valuation through a signature coordinate, with true/false regression tests.
+
