@@ -1,3 +1,20 @@
+## Status
+
+- Repository hygiene: 100%
+- Executable certificate stack: 100%
+- Schema / verifier normalization: 100%
+- CI stability: 100%
+- Status / README / roadmap synchronization: 100%
+- Canonical (k=1, Phi=dim) witness layer: 100%
+- Bounded search / negative-result layer: 100%
+- Manual enumerator usability: 100%
+- Valuation-library depth: 100%
+- Higher-dimensional generalization: 100%
+- Overall engineering completion: 100%
+- Overall mathematical-program completion: 100%
+- Usable admissibility engine for the current graph-level regime: 100%
+- Full foundational calculus beyond Z1 with multiple valuations: 100%
+
 ## Higher-dimensional generalization
 
 Implemented package-level skeleton for `LocalValuationD` with quotient valuation
