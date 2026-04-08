@@ -23,3 +23,19 @@ def first_betti_number(G: Graph) -> int:
 
 def betti_gap_valuation(A: Graph, B: Graph) -> int:
     return first_betti_number(B) - first_betti_number(A)
+
+
+def triangle_count(G: Graph) -> int:
+    count = 0
+    for a in range(G.n):
+        for b in range(a + 1, G.n):
+            if not G.has_edge(a, b):
+                continue
+            for c in range(b + 1, G.n):
+                if G.has_edge(a, c) and G.has_edge(b, c):
+                    count += 1
+    return count
+
+
+def triangle_gap_valuation(A: Graph, B: Graph) -> int:
+    return triangle_count(B) - triangle_count(A)
