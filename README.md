@@ -39,3 +39,10 @@ Status:
 ## Next theorem target
 - Prove one nontrivial theorem beyond finite normalization.
 - Realize one URF invariant as a BEpTy valuation.
+
+
+## URF-facing examples
+- `theory/HighGirthLocalExhaustion.md` — first nontrivial theorem target
+- `notes/URF_INVARIANT_MATCHING.md` — URF invariant to BEpTy valuation match
+- `examples/c4_vs_tree_demo.md` — minimal cycle-vs-tree worked example
+- `examples/local_exhaustion_demo.py` — executable toy demo
