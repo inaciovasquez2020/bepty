@@ -72,6 +72,12 @@
 29. Record the first positive or negative result for each \((n,R)\) slice.
 
 
+## Blocker
+
+1. Exact equal-package / distinct-profile witness for the exact sheaf class.
+2. Exact determination or non-determination of kappa_R by the exact sheaf package.
+3. Full high-girth local-exhaustion theorem stack.
+
 ## Immediate next frontiers
 30. Unify emitter and verifier hashing through `utils.hasher.certificate_hash`.
 31. Add explicit schema-version assertion in tests.
