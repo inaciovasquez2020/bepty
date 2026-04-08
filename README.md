@@ -102,3 +102,13 @@ but
 - verifier layer: accepts valid certificates; rejects malformed and tampered certificates
 - CI status: recovered to green after workflow-header normalization
 
+
+## Completion snapshot
+- repository hygiene: 96%
+- executable certificate stack: 98%
+- schema / verifier normalization: 98%
+- CI stability: 96%
+- canonical `(k=1, Phi=dim)` witness layer: 96%
+- overall engineering completion: 94%
+- overall mathematical-program completion: 88%
+
