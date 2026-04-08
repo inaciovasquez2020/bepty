@@ -250,3 +250,7 @@ Implemented an executable semantic-closure predicate for equal-signature agreeme
 
 Implemented an executable final-closure predicate combining concrete signature-image equality with fiberwise valuation agreement across the admissible backend.
 
+## Valuation descent to signature image
+
+Implemented an executable predicate asserting that a valuation is constant on each observed signature fiber, with true/false regression tests.
+
