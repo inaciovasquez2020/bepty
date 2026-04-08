@@ -8,3 +8,4 @@ from .multi_valuation_verify import verify_certificate
 from .multi_valuation_codec import certificate_from_dict, certificate_from_json, certificate_to_dict, certificate_to_json
 from .multi_valuation_bundle import build_certificate
 from .multi_valuation_manifest import build_manifest
+from .multi_valuation_manifest_io import read_manifest, write_manifest

@@ -162,3 +162,7 @@ Implemented `build_certificate` as the canonical construction path from a valuat
 
 Implemented `build_manifest` as the canonical transport object combining bundled certificate, normalized JSON payload, and deterministic SHA-256 digest, with an executable end-to-end manifest test.
 
+## Multi-valuation manifest I/O
+
+Implemented deterministic manifest read/write helpers, with an executable round-trip file transport test.
+
