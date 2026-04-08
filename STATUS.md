@@ -42,3 +42,9 @@
 - provisional comparison class fixed
 - target demo added
 - current state: provisional equal-sheaf / distinct-profile witness passes
+
+
+## Exact sheaf frontier
+- exact comparison target recorded
+- profiled valuation exact nonrecoverability question isolated
+- current status: open
