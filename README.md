@@ -174,3 +174,7 @@ Implemented deterministic manifest verification for in-memory and file-backed ma
 
 Implemented a canonical higher-dimensional certificate path with residual valuation, normalized JSON codec, deterministic SHA-256 hashing, schema validation, and verification tests.
 
+\n## Higher-dimensional manifest layer
+
+Implemented canonical manifest construction for higher-dimensional certificates, bundling normalized certificate payload, deterministic SHA-256 digest, and transport JSON with an executable end-to-end test.
+
