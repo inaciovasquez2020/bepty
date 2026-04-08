@@ -230,3 +230,7 @@ Implemented an executable predicate asserting that every admissible observed sig
 
 Implemented an executable predicate asserting equality between the concrete signature image and the registered witness-family signature image, with true/false regression tests.
 
+## Backend signature closure
+
+Implemented an executable predicate combining signature-image equality with fiberwise valuation agreement on the registered witness family.
+
