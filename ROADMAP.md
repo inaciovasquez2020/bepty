@@ -39,3 +39,9 @@
 8. Fix an explicit sheaf-theoretic comparison class.
 9. Construct a candidate equal-sheaf / distinct-profile witness pair.
 10. Prove or refute sheaf nonrecoverability for the chosen class.
+
+
+11. Replace the provisional sheaf comparison class by an exact categorical one.
+12. Prove invariance of the profiled valuation under the intended BEpTy morphisms.
+13. Search for an exact equal-sheaf / distinct-profile witness pair.
+14. Prove or refute sheaf nonrecoverability for the exact class.

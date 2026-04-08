@@ -58,3 +58,14 @@ Status:
   - `beta_prof_R` is strictly finer than first Betti rank.
 - Open frontier:
   - nonrecoverability from the chosen sheaf-theoretic comparison class.
+
+
+## Sheaf-profile frontier
+- Provisional comparison class fixed in `notes/SHEAF_COMPARISON_CLASS.md`
+- Executable target demo: `examples/sheaf_profile_target.py`
+- Current status:
+  - provisional equal-sheaf witness passes
+  - profiled valuation still separates
+- Next formal requirement:
+  - replace the provisional sheaf class by an exact categorical comparison class
+  - prove or refute nonrecoverability for that exact class
