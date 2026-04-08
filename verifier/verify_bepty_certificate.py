@@ -3,9 +3,18 @@ import hashlib
 import sys
 from pathlib import Path
 
+import jsonschema
+
 def verify(path_str: str) -> int:
     path = Path(path_str)
     data = json.loads(path.read_text())
+
+    schema = json.loads(Path("schemas/bepty_certificate.schema.json").read_text())
+    try:
+        jsonschema.validate(instance=data, schema=schema)
+    except jsonschema.ValidationError as e:
+        print(f"schema validation failed: {e.message}")
+        return 1
 
     required = ["object_type", "valuation", "radius", "xR_vanishes", "beta_value", "hash"]
     for key in required:
