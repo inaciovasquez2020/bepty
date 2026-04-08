@@ -166,3 +166,7 @@ Implemented `build_manifest` as the canonical transport object combining bundled
 
 Implemented deterministic manifest read/write helpers, with an executable round-trip file transport test.
 
+## Multi-valuation manifest verification
+
+Implemented deterministic manifest verification for in-memory and file-backed manifests, with executable acceptance and rejection tests.
+
