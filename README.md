@@ -9,11 +9,11 @@
 - Bounded search / negative-result layer: 100%
 - Manual enumerator usability: 100%
 - Valuation-library depth: 100%
-- Higher-dimensional generalization: 100%
-- Overall engineering completion: 100%
-- Overall mathematical-program completion: 100%
+- Higher-dimensional generalization: 15%
+- Overall engineering completion: 94%
+- Overall mathematical-program completion: 88%
 - Usable admissibility engine for the current graph-level regime: 100%
-- Full foundational calculus beyond Z1 with multiple valuations: 100%
+- Full foundational calculus beyond Z1 with multiple valuations: 58%
 
 ## Higher-dimensional generalization
 
