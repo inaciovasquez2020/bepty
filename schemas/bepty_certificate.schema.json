@@ -4,16 +4,17 @@
   "description": "Canonical proof of residual valuation and local vanishing",
   "type": "object",
   "properties": {
+    "certificate_version": { "type": "string", "const": "v0.2.0" },
     "object_type": { "type": "string", "enum": ["graph", "simplicial_complex"] },
     "valuation": { "type": "string", "enum": ["dim", "entropy", "euler"] },
     "radius": { "type": "number", "minimum": 0 },
-    "graph_A": { "type": "object", "description": "Adjacency/Structure of A" },
-    "graph_B": { "type": "object", "description": "Adjacency/Structure of B" },
-    "xR_vanishes": { "type": "boolean" },
+    "graph_A": { "type": "object" },
+    "graph_B": { "type": "object" },
+    "xR_vanishes": { "boolean": true },
     "beta_value": { "type": "integer" },
-    "profile_A": { "type": "object", "description": "Local exhaustion profile for A" },
-    "profile_B": { "type": "object", "description": "Local exhaustion profile for B" },
-    "hash": { "type": "string", "description": "Cryptographic digest of certificate content" }
+    "profile_A": { "type": "object" },
+    "profile_B": { "type": "object" },
+    "hash": { "type": "string" }
   },
-  "required": ["object_type", "valuation", "radius", "xR_vanishes", "beta_value", "hash"]
+  "required": ["certificate_version", "object_type", "valuation", "radius", "xR_vanishes", "beta_value", "hash"]
 }
