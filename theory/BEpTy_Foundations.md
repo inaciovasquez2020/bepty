@@ -56,3 +56,43 @@ A\subseteq B\subsetneq C \Rightarrow \beta(A,B)<\beta(A,C)
 \[
 \mathrm{DenseAbs}(A,B)\iff A=\varnothing
 \]
+
+
+## Topological specialization
+
+\[
+X \text{ topological},\qquad A\subseteq B\subseteq X.
+\]
+
+\[
+\beta_{\mathrm{int}}(A,B):=
+\begin{cases}
+0,&\operatorname{int}(B\setminus A)=\varnothing,\\
+1,&\operatorname{int}(B\setminus A)\neq\varnothing.
+\end{cases}
+\]
+
+\[
+\mathrm{Thin}(A,B)\iff \beta_{\mathrm{int}}(A,B)=0.
+\]
+
+## Open Detection
+
+\[
+A\subseteq B\subseteq X,\qquad B\setminus A \text{ open in }X
+\]
+
+\[
+\Longrightarrow\qquad \beta_{\mathrm{int}}(A,B)=0 \iff A=B.
+\]
+
+## Closed Shell Detection
+
+\[
+A \text{ closed},\quad B \text{ open},\quad A\subseteq B
+\]
+
+\[
+\Longrightarrow\qquad \beta_{\mathrm{int}}(A,B)=0 \iff A=B.
+\]
+

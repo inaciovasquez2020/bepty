@@ -57,6 +57,38 @@ Assume \(X\) is finite and \(\Phi(E)=|E|\). Then
 \(\beta(A,B)=1 \iff \exists !x\in X\ \text{such that}\ B=A\cup\{x\}.\)
 \end{theorem}
 
+\section{Topological specialization}
+
+Let
+\[
+\beta_{\mathrm{int}}(A,B):=
+\begin{cases}
+0,&\operatorname{int}(B\setminus A)=\varnothing,\\
+1,&\operatorname{int}(B\setminus A)\neq\varnothing.
+\end{cases}
+\]
+
+\begin{theorem}[Open Detection]
+If \(A \subseteq B \subseteq X\) and \(B\setminus A\) is open in \(X\), then
+\(\beta_{\mathrm{int}}(A,B)=0 \iff A=B.\)
+\end{theorem}
+
+\begin{corollary}[Closed Shell Detection]
+If \(A\) is closed, \(B\) is open, and \(A\subseteq B\), then
+\(\beta_{\mathrm{int}}(A,B)=0 \iff A=B.\)
+\end{corollary}
+
+\section{Worked interval example}
+
+Let \(A=[0,1]\) and \(B=(0,2)\). Then
+\[
+B\setminus A=(1,2),
+\qquad
+\operatorname{int}(B\setminus A)=(1,2)\neq\varnothing,
+\qquad
+\beta_{\mathrm{int}}(A,B)=1.
+\]
+
 \section{Program threshold}
 
 The next threshold is:
