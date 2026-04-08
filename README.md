@@ -95,3 +95,10 @@ but
 \qquad
 \operatorname{Hist}_R(K):=\frac{1}{|V(K)|}\{\!\{\operatorname{code}(B_R(v;K),v)\}\!\}_{v\in V(K)}.
 \]
+
+
+## Current verification status
+- certificate layer: schema-normalized, version-pinned, hash-normalized
+- verifier layer: accepts valid certificates; rejects malformed and tampered certificates
+- CI status: recovered to green after workflow-header normalization
+
