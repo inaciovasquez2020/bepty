@@ -1,0 +1,91 @@
+{
+  "beta_value": 2,
+  "certificate_version": "v0.2.0",
+  "graph_A": {
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        3
+      ]
+    ],
+    "name": "theta_3_3_3"
+  },
+  "graph_B": {
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "name": "dumbbell_6_6"
+  },
+  "hash": "af3157589ba653ccb51791e498216613aa73e4fcab152e37ae867f0fb625985e",
+  "object_type": "graph",
+  "profile_A": {
+    "kind": "normalized_rooted_ball_histogram",
+    "radius": 1
+  },
+  "profile_B": {
+    "kind": "normalized_rooted_ball_histogram",
+    "radius": 1
+  },
+  "radius": 1,
+  "valuation": "dim",
+  "xR_vanishes": false
+}
