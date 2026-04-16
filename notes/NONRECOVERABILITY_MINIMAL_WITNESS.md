@@ -8,7 +8,7 @@ There exist connected graphs \(K,L\) such that
 \]
 but
 \[
-\beta^{\mathrm{prof}}_{1}(K)\neq \beta^{\mathrm{prof}}_{1}(L).
+\beta^{\mathrm{prof}}_{1}(K)\neq\beta^{\mathrm{prof}}_{1}(L)
 \]
 
 ## Minimal witness source
