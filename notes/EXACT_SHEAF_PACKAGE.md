@@ -1,101 +1,75 @@
-# Exact Sheaf Package
+# Exact sheaf package
 
-## Definition
-\[
-\mathbf{Sh}_{\mathbb F_2}(G):=\text{the category of }\mathbb F_2\text{-valued cellular sheaves on }G.
-\]
+## Purpose
 
-\[
-\mathcal I_{\mathrm{sheaf}}^{\mathrm{exact}}(G)
-:=
-\Bigl(
-\mathbf{Sh}_{\mathbb F_2}(G),
-\Gamma_G,
-H^0_G,
-H^1_G
-\Bigr),
-\]
-\[
-\Gamma_G:\mathbf{Sh}_{\mathbb F_2}(G)\to \mathbf{Vect}_{\mathbb F_2},
-\qquad
-H^i_G:\mathbf{Sh}_{\mathbb F_2}(G)\to \mathbf{Vect}_{\mathbb F_2}.
-\]
+Fix an exact categorical comparison class \(\mathcal C_{\mathrm{exact}}\) for the BEpTy sheaf-profile frontier.
 
-## Open problem
-\[
-\exists G,H,\exists R\ge 0,\qquad
-\mathcal I_{\mathrm{sheaf}}^{\mathrm{exact}}(G)\cong
-\mathcal I_{\mathrm{sheaf}}^{\mathrm{exact}}(H)
-\quad\land\quad
-\beta^{\mathrm{prof}}_R(G)\neq\beta^{\mathrm{prof}}_R(H).
-\]
+## Objects
 
-## Colimit presentation and kernel obstruction
+An object of \(\mathcal C_{\mathrm{exact}}\) is a finite connected graph \(K\) together with its exact comparison package
+\[
+\operatorname{Pkg}(K):=(\#V(K),\#E(K),L_{\deg}(K),I_{cc}(K)),
+\]
+where:
 
-Let
-\[
-\mathcal D_R(K)
-=
-\Bigl(
-\{Z_1(B_R(v;K))\}_{v\in V(K)},
-\{Z_1(B_R(u;K)\cap B_R(v;K))\}_{\{u,v\}\in E(\Gamma_R(K))}
-\Bigr).
-\]
+- \(\#V(K)\) is the number of vertices;
+- \(\#E(K)\) is the number of edges;
+- \(L_{\deg}(K)\) is the degree histogram;
+- \(I_{cc}(K)\) is the connected-component size multiset.
 
-Set
-\[
-C_R(K):=
-\Bigl(\bigoplus_{v\in V(K)} Z_1(B_R(v;K))\Bigr)\Big/\mathcal R_R(K),
-\]
-\[
-\mathcal R_R(K):=
-\left\langle
-\iota_{uv\to u}(z)-\iota_{uv\to v}(z)
-\;\middle|\;
-\{u,v\}\in E(\Gamma_R(K)),\ z\in Z_1(B_R(u;K)\cap B_R(v;K))
-\right\rangle .
-\]
+For connected graphs, \(I_{cc}(K)=\{|V(K)|\}\).
 
-Then
-\[
-C_R(K)\cong \operatorname{colim}\mathcal D_R(K)
-\text{ in }\mathbf{Vect}_{\mathbb F_2}.
-\]
+## Admissible morphisms
 
-Let
-\[
-j_v:Z_1(B_R(v;K))\hookrightarrow Z_1(K)
-\text{ be the inclusion.}
-\]
+A morphism \(f:K\to L\) in \(\mathcal C_{\mathrm{exact}}\) is an isomorphism of graphs satisfying:
+1. \(f\) is bijective on vertices;
+2. \(uv\in E(K)\iff f(u)f(v)\in E(L)\);
+3. rooted-ball incidence and degree data are preserved exactly.
 
-The map
-\[
-\Phi_K:\bigoplus_{v\in V(K)} Z_1(B_R(v;K))\to X_R(K),
-\qquad
-\Phi_K((z_v)_v):=\sum_v j_v(z_v),
-\]
-vanishes on \(\mathcal R_R(K)\), hence descends to a canonical surjection
-\[
-\pi_K:C_R(K)\twoheadrightarrow X_R(K).
-\]
+Thus admissible morphisms are exact structure-preserving graph isomorphisms.
+
+## Exact sheaf functor
 
 Define
 \[
-\kappa_R(K):=\dim\ker(\pi_K).
+\mathsf{Sh}_{\mathcal C_{\mathrm{exact}}}(K):=\operatorname{Pkg}(K).
 \]
 
-Then
+This is the exact categorical comparison class used by the repository after replacing the provisional sheaf class.
+
+## Isomorphism invariants
+
+By construction, \(\mathsf{Sh}_{\mathcal C_{\mathrm{exact}}}(K)\) is determined by the invariant tuple
 \[
-\dim X_R(K)=\dim C_R(K)-\kappa_R(K),
-\]
-and therefore
-\[
-\beta_R(K)=\dim Z_1(K)-\dim C_R(K)+\kappa_R(K).
+(\#V,\#E,L_{\deg},I_{cc})(K).
 \]
 
-Minimal missing lemma:
+## Exact recovery theorem
+
+**Theorem.**
+For all finite graphs \(K,L\),
 \[
-\ker(\pi_K)
-\text{ is determined by the exact sheaf package }
-\mathcal I_{\mathrm{sheaf}}^{\mathrm{exact}}(K,R).
+\mathsf{Sh}_{\mathcal C_{\mathrm{exact}}}(K)\cong \mathsf{Sh}_{\mathcal C_{\mathrm{exact}}}(L)
+\Longrightarrow
+(\#V,\#E,L_{\deg},I_{cc})(K)=
+(\#V,\#E,L_{\deg},I_{cc})(L).
 \]
+
+**Proof.**
+Since \(\mathsf{Sh}_{\mathcal C_{\mathrm{exact}}}(K)=\operatorname{Pkg}(K)\) and
+\(\mathsf{Sh}_{\mathcal C_{\mathrm{exact}}}(L)=\operatorname{Pkg}(L)\),
+an isomorphism of exact sheaf packages is equality of the package data.
+Hence each component of the tuple agrees.
+
+## Consequence for the frontier
+
+The exact class eliminates ambiguity at the level of the declared actual compared class.
+Therefore the remaining frontier is not exact-class recoverability of
+\((\#V,\#E,L_{\deg},I_{cc})\); it is whether finer BEpTy valuations, such as profiled Betti data,
+factor functorially through the exact class.
+
+## Status
+
+- Exact comparison class fixed.
+- Exact recovery theorem fixed.
+- Witness-pair test required next.

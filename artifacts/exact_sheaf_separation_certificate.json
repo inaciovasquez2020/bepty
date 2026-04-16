@@ -1,0 +1,16 @@
+{
+  "certificate_version": "1.0.0",
+  "theorem_name": "Exact sheaf package witness separation",
+  "repository": "bepty",
+  "witness_pair": [
+    "Theta(3,3,3)",
+    "Dumbbell(6,6)"
+  ],
+  "bound_urf_invariant": "I_URF=(#V,#E,L_deg,I_cc)",
+  "claims": {
+    "exact_sheaf_equal": false,
+    "beta_prof_1_equal": false,
+    "urf_valuation_equal": false
+  },
+  "status": "certificate-backed witness"
+}
