@@ -1,33 +1,18 @@
 {
+  "cases": {
+    "C4": {
+      "beta_dim_R(G)": 1
+    },
+    "Tree": {
+      "beta_dim_R(G)": 0
+    }
+  },
+  "conclusion": "candidate valuation separates",
   "name": "local_exhaustion_witness",
   "objects": [
-    "G",
-    "H"
+    "C4",
+    "Tree"
   ],
   "radius": 2,
-  "witness": "profile_count_difference",
-  "conclusion": "candidate valuation separates",
-  "profile_vectors": {
-    "G": [
-      3,
-      1,
-      0,
-      2
-    ],
-    "H": [
-      2,
-      1,
-      1,
-      2
-    ]
-  },
-  "difference_detected": true,
-  "next_target": "HIGH_GIRTH_LOCAL_VALUATION_LEMMA",
-  "valuation_name": "V_r",
-  "valuation_formula": "sum((i+1)*p_i)",
-  "valuation_values": {
-    "G": 13,
-    "H": 15
-  },
-  "valuation_separates_example": true
+  "witness": "profile_count_difference"
 }
