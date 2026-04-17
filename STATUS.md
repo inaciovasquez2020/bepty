@@ -167,3 +167,8 @@
 - executable directly via `python3 examples/search_equal_signature_pairs.py`
 - current manual output at configured bound: `None`
 
+
+
+## Current Next Theorem Target
+
+HIGH_GIRTH_LOCAL_VALUATION_LEMMA

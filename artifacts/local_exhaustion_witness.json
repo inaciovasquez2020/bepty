@@ -6,5 +6,21 @@
   ],
   "radius": 2,
   "witness": "profile_count_difference",
-  "conclusion": "candidate valuation separates"
+  "conclusion": "candidate valuation separates",
+  "profile_vectors": {
+    "G": [
+      3,
+      1,
+      0,
+      2
+    ],
+    "H": [
+      2,
+      1,
+      1,
+      2
+    ]
+  },
+  "difference_detected": true,
+  "next_target": "HIGH_GIRTH_LOCAL_VALUATION_LEMMA"
 }
