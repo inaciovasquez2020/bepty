@@ -264,3 +264,20 @@ Implemented an executable predicate asserting that a valuation is constant on ea
 ## Signature section and induced valuation
 
 Implemented representative selection on signature fibers, executable factorization through chosen representatives, and construction of the induced signature-level valuation.
+
+## Canonical Closure Path
+
+Current canonical navigation surface:
+- `docs/status/BEPTY_CANONICAL_CLOSURE_INDEX_2026_04_17.md`
+
+Current theorem closure gate:
+- `docs/status/BEPTY_CLOSURE_GATE_2026_04_17.md`
+
+Current weakest missing theorem:
+- `docs/math/BEPTY_WEAKEST_MISSING_THEOREM_2026_04_17.md`
+
+Closure status:
+- Repository Completion: ~99%
+- Program-Definitive Completion on declared compared class: 100%
+- Theorem closure remains OPEN until all closure-gate objects are instantiated.
+
