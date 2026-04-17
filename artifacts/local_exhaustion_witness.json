@@ -1,0 +1,10 @@
+{
+  "name": "local_exhaustion_witness",
+  "objects": [
+    "G",
+    "H"
+  ],
+  "radius": 2,
+  "witness": "profile_count_difference",
+  "conclusion": "candidate valuation separates"
+}
