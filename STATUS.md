@@ -172,3 +172,7 @@
 ## Current Next Theorem Target
 
 HIGH_GIRTH_LOCAL_VALUATION_LEMMA
+
+## Current Construction Layer
+
+HIGH_GIRTH_LOCAL_VALUATION_CONSTRUCTION

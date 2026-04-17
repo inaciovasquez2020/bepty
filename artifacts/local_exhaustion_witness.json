@@ -22,5 +22,12 @@
     ]
   },
   "difference_detected": true,
-  "next_target": "HIGH_GIRTH_LOCAL_VALUATION_LEMMA"
+  "next_target": "HIGH_GIRTH_LOCAL_VALUATION_LEMMA",
+  "valuation_name": "V_r",
+  "valuation_formula": "sum((i+1)*p_i)",
+  "valuation_values": {
+    "G": 13,
+    "H": 15
+  },
+  "valuation_separates_example": true
 }
