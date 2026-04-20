@@ -1,0 +1,17 @@
+{
+  "FN_equal": true,
+  "J_equal": true,
+  "V2X": {
+    "urf_rank_f2": 2
+  },
+  "V2Y": {
+    "urf_rank_f2": 1
+  },
+  "V2_distinct": true,
+  "X": "actual_alpha",
+  "Y": "actual_beta",
+  "family": "ActualBEpTy",
+  "nonisomorphic_by_iso_tag": true,
+  "status": "CONDITIONAL",
+  "theorem_schema": "J(X) == J(Y) and V2(X) != V2(Y) implies X != Y"
+}

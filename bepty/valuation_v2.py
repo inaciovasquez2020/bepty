@@ -1,10 +1,10 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from typing import Any, Callable, Iterable, List, Sequence
+from typing import Any, Callable, List, Sequence
 
 
-def _xor_rows_over_f2(rows: Sequence[Sequence[int]], src: int, dst: int) -> None:
+def _xor_rows_over_f2(rows: Sequence[List[int]], src: int, dst: int) -> None:
     rows[dst][:] = [(a ^ b) for a, b in zip(rows[dst], rows[src])]
 
 
@@ -58,5 +58,5 @@ def V2(obj: Any, phi2: Phi2) -> Any:
 
 def LocalValuationD(obj: Any, d: int) -> int:
     if d != 2:
-        raise ValueError("only d=2 is implemented in valuation_v2.LocalValuationD")
+        raise ValueError("only d=2 is implemented")
     return LV2_rank(obj)
