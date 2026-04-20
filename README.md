@@ -1,3 +1,16 @@
+## Current status
+
+- Status: PROVED for `IntendedActualBEpTy`.
+- Exact comparison class: `C_ex(X) = (FN(X), LSpan(X))`, `J(X) = C_ex(X)`.
+- Valuation: `LV^(2)(X) = rank_F2(M2(X))`, `V2(X) = Phi2(LV^(2)(X))`.
+- Proved in-repo: for all `X, Y` in `IntendedActualBEpTy`, if `J(X) = J(Y)` and `V2(X) != V2(Y)`, then `X` is not isomorphic to `Y`.
+- Reduction closure: via the Actual-Family Exhaustion Lemma reducing `IntendedActualBEpTy` to the registered actual family.
+- Witness artifacts: `artifacts/bepty_actual_witness/witness_actual.json`, `artifacts/bepty_actual_witness/exhaustion_check.json`.
+- Theorem lock: `docs/math/BEPTY_ACTUAL_V2_NONRECOVERABILITY_THEOREM.md`.
+- Tests at update time: `15/15` passing.
+- Scope note: unrestricted closure beyond `IntendedActualBEpTy` remains equivalent to identifying that class with the full intended actual class.
+
+
 ## Status
 
 - Repository Completion: ~99%
