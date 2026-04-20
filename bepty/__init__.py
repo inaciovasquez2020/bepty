@@ -1,36 +1,63 @@
-from .local_valuation_d import LocalValuationD
-from .multi_valuation import MultiValuationCertificate, MultiValuationFactorization
-from .valuation_registry import ValuationRegistry, ValuationSpec
-from .multi_valuation_codec import certificate_to_dict, certificate_to_json
-from .multi_valuation_hash import certificate_sha256
-from .multi_valuation_schema import validate_certificate_dict
-from .multi_valuation_verify import verify_certificate
-from .multi_valuation_codec import certificate_from_dict, certificate_from_json, certificate_to_dict, certificate_to_json
-from .multi_valuation_bundle import build_certificate
-from .multi_valuation_manifest import build_manifest
-from .multi_valuation_manifest_io import read_manifest, write_manifest
-from .multi_valuation_manifest_verify import verify_manifest_file, verify_manifest_obj
-from .higher_dimensional import HigherDimensionalCertificate, HigherDimensionalSpec, HigherDimensionalValuation, build_higher_dimensional_certificate, certificate_sha256 as higher_dimensional_certificate_sha256, certificate_to_dict as higher_dimensional_certificate_to_dict, certificate_to_json as higher_dimensional_certificate_to_json, validate_certificate_dict as validate_higher_dimensional_certificate_dict, verify_certificate as verify_higher_dimensional_certificate
+from importlib import import_module
 
-from .higher_dimensional_manifest import build_higher_dimensional_manifest
-from .higher_dimensional_manifest_io import read_higher_dimensional_manifest, write_higher_dimensional_manifest
-from .higher_dimensional_manifest_verify import verify_higher_dimensional_manifest_file, verify_higher_dimensional_manifest_obj
-from .higher_dimensional_concrete import ConcreteHigherDimensionalValuation, MatrixComplex
-from .higher_dimensional_registry_bridge import build_higher_dimensional_registry, make_higher_dimensional_spec
+__all__ = [
+    "finite_normalization",
+    "local_span_morphisms",
+    "C_ex",
+    "J",
+    "LocalValuationD",
+    "Phi2",
+    "LV2_rank",
+    "V2",
+    "enumerate_target_family_pairs",
+    "first_v2_witness",
+]
 
-from .unified_registry_manifest import build_unified_registry_manifest
-from .single_valuation_extractor import single_valuation_signature_complete
-from .valuation_factorization import valuation_factors_through_coordinate
-from .joint_signature_completeness import joint_signature_complete
+_EXPORT_MAP = {
+    "finite_normalization": [
+        ("bepty.finite_normalization", "finite_normalization"),
+        ("bepty.normalization", "finite_normalization"),
+        ("bepty.core", "finite_normalization"),
+    ],
+    "local_span_morphisms": [
+        ("bepty.local_span", "local_span_morphisms"),
+        ("bepty.span", "local_span_morphisms"),
+        ("bepty.core", "local_span_morphisms"),
+    ],
+    "C_ex": [("bepty.exact_quotient", "C_ex")],
+    "J": [("bepty.exact_quotient", "J")],
+    "LocalValuationD": [
+        ("bepty.local_valuation_d", "LocalValuationD"),
+        ("bepty.valuation_v2", "LocalValuationD"),
+    ],
+    "Phi2": [("bepty.valuation_v2", "Phi2")],
+    "LV2_rank": [("bepty.valuation_v2", "LV2_rank")],
+    "V2": [("bepty.valuation_v2", "V2")],
+    "enumerate_target_family_pairs": [
+        ("bepty.target_family_search", "enumerate_target_family_pairs"),
+        ("bepty.target_family", "enumerate_target_family_pairs"),
+    ],
+    "first_v2_witness": [
+        ("bepty.target_family_search", "first_v2_witness"),
+        ("bepty.target_family", "first_v2_witness"),
+    ],
+}
 
-from .signature_witness_table import build_signature_witness_table
-from .signature_fiber_generation import witness_family_generates_signature_fibers
-from .fiber_representative import every_admissible_fiber_has_registered_representative
-from .signature_image_surjective import signature_image_surjective_on_registered_family
-from .backend_signature_closure import backend_signature_closure
-from .admissible_backend_theorem import admissible_backend_joint_completeness
-from .bounded_search_negative_result import NegativeResultCertificate, build_manifest as build_negative_result_manifest, certificate_sha256 as negative_result_certificate_sha256, certificate_to_dict as negative_result_certificate_to_dict, certificate_to_json as negative_result_certificate_to_json, run_bounded_search, validate_certificate_dict as validate_negative_result_certificate_dict, verify_certificate as verify_negative_result_certificate
-from .admissible_backend_semantic_closure import admissible_backend_semantic_closure
-from .final_backend_closure import final_backend_closure
-from .valuation_descends import valuation_descends_to_signature_image
-from .signature_section import choose_signature_representatives, induced_signature_function, valuation_factors_via_representatives
+
+def __getattr__(name):
+    if name not in _EXPORT_MAP:
+        raise AttributeError(f"module 'bepty' has no attribute {name!r}")
+    tried = []
+    for module_name, attr_name in _EXPORT_MAP[name]:
+        try:
+            module = import_module(module_name)
+            value = getattr(module, attr_name)
+            globals()[name] = value
+            return value
+        except (ModuleNotFoundError, AttributeError) as e:
+            tried.append(f"{module_name}:{attr_name} -> {e}")
+    raise AttributeError(f"unresolved export {name!r}; tried {tried}")
+
+
+def __dir__():
+    return sorted(set(globals()) | set(__all__))
