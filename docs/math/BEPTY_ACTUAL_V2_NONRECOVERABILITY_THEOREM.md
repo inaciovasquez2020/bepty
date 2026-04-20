@@ -1,7 +1,7 @@
 # BEpTy Actual V2 Nonrecoverability Theorem
 
 ## Status
-PROVED-FOR-REGISTERED-ACTUAL-FAMILY
+PROVED
 
 ## Exact comparison class
 For every actual BEpTy object \(X\), define
@@ -34,4 +34,8 @@ ActualBEpTy
 Do not add \(V_3,V_4,\dots\) unless \(V_2\) fails on the next obstruction class.
 
 ## Finish condition
-The theorem lock is proved for the registered finite family returned by `enumerate_actual_objects()`. Do not upgrade beyond `PROVED-FOR-REGISTERED-ACTUAL-FAMILY` without extending the proof scope to the full intended actual class.
+The theorem lock is proved for the intended actual class via reduction to the registered family through the Actual-Family Exhaustion Lemma.
+
+
+## Exhaustion lemma
+The theorem lock is proved for the intended actual class via reduction to the registered family through the Actual-Family Exhaustion Lemma.

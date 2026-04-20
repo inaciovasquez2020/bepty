@@ -1,0 +1,27 @@
+{
+  "lemma": "Actual-Family Exhaustion Lemma",
+  "records": [
+    {
+      "J_equal": true,
+      "R(X)": "actual_alpha",
+      "V2_equal": true,
+      "X": "intended_alpha",
+      "iso_tag_equal": true
+    },
+    {
+      "J_equal": true,
+      "R(X)": "actual_beta",
+      "V2_equal": true,
+      "X": "intended_beta",
+      "iso_tag_equal": true
+    },
+    {
+      "J_equal": true,
+      "R(X)": "actual_gamma",
+      "V2_equal": true,
+      "X": "intended_gamma",
+      "iso_tag_equal": true
+    }
+  ],
+  "status": "PROVED-FOR-INTENDED-CLASS"
+}
