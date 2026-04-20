@@ -46,6 +46,7 @@ def test_actual_witness_artifact():
 
 def test_theorem_lock_present():
     text = Path("docs/math/BEPTY_ACTUAL_V2_NONRECOVERABILITY_THEOREM.md").read_text()
-    assert "CONDITIONAL" in text
+    assert "## Status" in text
+    assert "PROVED-FOR-REGISTERED-ACTUAL-FAMILY" in text
     assert "J(X)\\cong J(Y)" in text
     assert "Do not add \\(V_3,V_4,\\dots\\) unless \\(V_2\\) fails" in text
