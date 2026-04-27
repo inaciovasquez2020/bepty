@@ -294,3 +294,6 @@ Closure status:
 - Program-Definitive Completion on declared compared class: 100%
 - Theorem closure remains OPEN until all closure-gate objects are instantiated.
 
+## Lean proof portfolio classification
+
+This repository is governed by [`docs/status/LEAN_PROOF_PORTFOLIO_CLASSIFICATION.md`](docs/status/LEAN_PROOF_PORTFOLIO_CLASSIFICATION.md). Its role in the portfolio is explicitly classified as proof-facing, conditional frontier, infrastructure/documentation, or legacy/scaffold.
