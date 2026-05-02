@@ -1,0 +1,80 @@
+{
+  "boundary": [
+    "This certifies the explicit N_degE normalizer.",
+    "It does not assert every BEpTy finite-normalization map preserves E_deg.",
+    "It does not assert unrestricted BEpTy closure."
+  ],
+  "normalizer": "N_degE(X) = degree-labeled edge-incidence multiset",
+  "samples": [
+    {
+      "isomorphism_invariance_checked": true,
+      "name": "G4_adjacent",
+      "normalizer": {
+        "1,3": 2,
+        "2,2": 1,
+        "2,3": 2,
+        "3,3": 1
+      },
+      "v33_graph": 1,
+      "v33_normalized": 1
+    },
+    {
+      "isomorphism_invariance_checked": true,
+      "name": "H4_nonadjacent",
+      "normalizer": {
+        "1,3": 2,
+        "2,3": 4
+      },
+      "v33_graph": 0,
+      "v33_normalized": 0
+    },
+    {
+      "isomorphism_invariance_checked": true,
+      "name": "G8_adjacent",
+      "normalizer": {
+        "1,3": 2,
+        "2,2": 5,
+        "2,3": 2,
+        "3,3": 1
+      },
+      "v33_graph": 1,
+      "v33_normalized": 1
+    },
+    {
+      "isomorphism_invariance_checked": true,
+      "name": "H8_nonadjacent",
+      "normalizer": {
+        "1,3": 2,
+        "2,2": 4,
+        "2,3": 4
+      },
+      "v33_graph": 0,
+      "v33_normalized": 0
+    },
+    {
+      "isomorphism_invariance_checked": true,
+      "name": "G12_adjacent",
+      "normalizer": {
+        "1,3": 2,
+        "2,2": 9,
+        "2,3": 2,
+        "3,3": 1
+      },
+      "v33_graph": 1,
+      "v33_normalized": 1
+    },
+    {
+      "isomorphism_invariance_checked": true,
+      "name": "H12_nonadjacent",
+      "normalizer": {
+        "1,3": 2,
+        "2,2": 8,
+        "2,3": 4
+      },
+      "v33_graph": 0,
+      "v33_normalized": 0
+    }
+  ],
+  "status": "PASS",
+  "theorem": "v33(N_degE(X)) = v33(X)"
+}
