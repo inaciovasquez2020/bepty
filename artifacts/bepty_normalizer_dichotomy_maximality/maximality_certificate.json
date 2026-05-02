@@ -1,0 +1,38 @@
+{
+  "class_checks": {
+    "Class A {N_degE}": {
+      "case": "PRESERVATION_CASE",
+      "v33_uniform_closure": true
+    },
+    "Class B {N0}": {
+      "case": "OBSTRUCTION_CASE",
+      "v33_failure_witness": {
+        "normalizer": "N0",
+        "sample": "G8",
+        "v33_in": 1,
+        "v33_out": 0
+      },
+      "v33_uniform_closure": false
+    },
+    "Class C {N_degE,N0}": {
+      "case": "OBSTRUCTION_CASE",
+      "v33_failure_witness": {
+        "normalizer": "N0",
+        "sample": "G8",
+        "v33_in": 1,
+        "v33_out": 0
+      },
+      "v33_uniform_closure": false
+    }
+  },
+  "classification": "NORMALIZER_DICHOTOMY_MAXIMALITY_LOCK",
+  "current_repository_status": "N_DEGE_NORMALIZED_CLOSURE_ONLY",
+  "future_promotion_requires": "A foundational admissible-normalizer class implying AdmNorm_v33.",
+  "maximality_result": "No unrestricted promotion is possible under current assumptions.",
+  "not_claimed": [
+    "unrestricted BEpTy closure",
+    "normalizer-independence",
+    "AdmNorm_v33 declared as foundational BEpTy axiom"
+  ],
+  "status": "PASS"
+}
