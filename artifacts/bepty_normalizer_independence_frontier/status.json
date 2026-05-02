@@ -1,0 +1,14 @@
+{
+  "conditional_refutation": "If admissible normalizers are unconstrained, the constant empty normalizer refutes unrestricted normalizer-independence.",
+  "current_closure": "N_DEGE_NORMALIZED_CLOSURE_ONLY",
+  "frontier": "BEPTY_NORMALIZER_INDEPENDENCE_FRONTIER_2026_05_02",
+  "missing_theorem": "forall admissible BEpTy normalizers N, v33(N(X)) = v33(X)",
+  "not_claimed": [
+    "unrestricted BEpTy closure",
+    "normalizer-independence",
+    "all finite-normalization maps preserve E_deg"
+  ],
+  "remaining_obstruction": "normalizer-independence / unrestricted BEpTy closure",
+  "status": "FRONTIER_OPEN",
+  "sufficient_theorem": "forall admissible BEpTy normalizers N, E_deg(N(X)) = E_deg(X)"
+}
