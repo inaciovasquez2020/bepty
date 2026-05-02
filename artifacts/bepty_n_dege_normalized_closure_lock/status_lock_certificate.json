@@ -1,0 +1,11 @@
+{
+  "classification": "N_DEGE_NORMALIZED_CLOSURE_ONLY",
+  "closed_relative_to": "N_degE(X) = degree-labeled edge-incidence multiset",
+  "lock": "BEPTY_N_DEGE_NORMALIZED_CLOSURE_LOCK_2026_05_02",
+  "not_claimed": [
+    "unrestricted BEpTy closure",
+    "normalizer-independence",
+    "all finite-normalization maps preserve E_deg"
+  ],
+  "status": "PASS"
+}
