@@ -1,0 +1,41 @@
+{
+  "lemma_packet": "BEPTY_V33_FINITE_NORMALIZATION_COMPATIBILITY_2026_05_02",
+  "proved_reduction": "degree-labeled edge-incidence multiset preservation implies v33 preservation",
+  "remaining_unconditional_obligation": "prove finite normalization preserves degree-labeled edge-incidence multiset",
+  "samples": {
+    "G4_adjacent": {
+      "degree_edge_multiset": {
+        "(1, 3)": 2,
+        "(2, 2)": 1,
+        "(2, 3)": 2,
+        "(3, 3)": 1
+      },
+      "v33": 1
+    },
+    "G8_adjacent": {
+      "degree_edge_multiset": {
+        "(1, 3)": 2,
+        "(2, 2)": 5,
+        "(2, 3)": 2,
+        "(3, 3)": 1
+      },
+      "v33": 1
+    },
+    "H4_nonadjacent": {
+      "degree_edge_multiset": {
+        "(1, 3)": 2,
+        "(2, 3)": 4
+      },
+      "v33": 0
+    },
+    "H8_nonadjacent": {
+      "degree_edge_multiset": {
+        "(1, 3)": 2,
+        "(2, 2)": 4,
+        "(2, 3)": 4
+      },
+      "v33": 0
+    }
+  },
+  "status": "PASS"
+}
